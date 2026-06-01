@@ -32,7 +32,7 @@ export default function Home() {
         {/* Call To Action Controls */}
         <div className="space-y-3">
           <Link 
-            href="/game"
+            href="/prime"
             className="w-full block text-center px-4 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-medium transition-all shadow-sm active:scale-[0.99]"
           >
             Start Game
