@@ -12,6 +12,9 @@ export default async function About() {
     const randomIndex = Math.floor(Math.random() * validTargets.length)
   const initialTarget = validTargets[randomIndex]
   return <div>
+    <div>
+        You gotta find unique prime numbers whose sum is equal to number below
+    </div>
     number to find : {initialTarget}
     <br />
     <Game randomNumber={initialTarget}></Game>
